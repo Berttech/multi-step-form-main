@@ -17,7 +17,7 @@ const Summary = () => {
 
             {/* <!-- Step 4 end --> */}
         </div>
-    )
-}
+    );
+};
 
 export default Summary;

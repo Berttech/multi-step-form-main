@@ -1,31 +1,23 @@
 import React from 'react';
+import Plan from 'components/snippets/plan';
 
 const PlanOptions = () => {
-  return (
-    <div>
-      {/* <!-- Step 2 start --> */}
+    return (
+        <div>
+            Select your plan
+            You have the option of monthly or yearly billing.
 
-      Select your plan
-      You have the option of monthly or yearly billing.
+            <Plan title="Arcade" cost={9} />
+            <Plan title="Advanced" cost={12} />
+            <Plan title="Pro" cost={15} />
 
-      Arcade
-      $9/mo
+            Monthly
+            Yearly
 
-      Advanced
-      $12/mo
-
-      Pro
-      $15/mo
-
-      Monthly
-      Yearly
-
-      Go Back
-      Next Step
-
-      {/* <!-- Step 2 end --> */}
-    </div>
-  )
-}
+            Go Back
+            Next Step
+        </div>
+    );
+};
 
 export default PlanOptions;

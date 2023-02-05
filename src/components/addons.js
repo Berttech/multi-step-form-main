@@ -1,31 +1,23 @@
 import React from 'react';
-
+import Addon from 'components/snippets/addon';
 const Addons = () => {
     return (
         <div>
-              {/* <!-- Step 3 start --> */}
+            {/* <!-- Step 3 start --> */}
 
-                Pick add-ons
-                Add-ons help enhance your gaming experience.
+            Pick add-ons
+            Add-ons help enhance your gaming experience.
 
-                Online service
-                Access to multiplayer games
-                +$1/mo
+            <Addon title="Online service" description="Access to multiplayer games" cost={1} />
+            <Addon title="Larger storage" description="Extra 1TB of cloud save" cost={2} />
+            <Addon title="Customizable Profile" description="Custom theme on your profile" cost={2} />
 
-                Larger storage
-                Extra 1TB of cloud save
-                +$2/mo
+            Go Back
+            Next Step
 
-                Customizable Profile
-                Custom theme on your profile
-                +$2/mo
-
-                Go Back
-                Next Step
-
-                {/* <!-- Step 3 end --> */}
+            {/* <!-- Step 3 end --> */}
         </div>
-    )
-}
+    );
+};
 
 export default Addons;

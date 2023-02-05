@@ -7,7 +7,7 @@ const Step = (props) => {
             Step {index}
             {title}
         </div>
-    )
-}
+    );
+};
 
 export default Step;
