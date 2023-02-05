@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "build": "npx webpack --config webpack.config.js"
+    "build": "npx webpack --config webpack.config.js",
+    "dev": "npx webpack --config webpack.config.js --watch"
   },
   "author": "Albert Perry",
   "license": "ISC",
