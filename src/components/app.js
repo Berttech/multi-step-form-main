@@ -8,13 +8,15 @@ import Thanks from 'components/thanks';
 
 const App = () => {
     return (
-        <div>
+        <div className="flex p-4">
             <Steps />
-            <PersonalForm />
-            <PlanOptions />
-            <Addons />
-            <Summary />
-            <Thanks />
+            <div className="mx-25 mt-10">
+                <PersonalForm />
+                <PlanOptions />
+                <Addons />
+                <Summary />
+                <Thanks />
+            </div>
         </div>
     );
 };
