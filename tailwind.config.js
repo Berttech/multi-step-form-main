@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./*.{html,js}",
-    "./src/**/*.{html,js}"
+    "./dist/**/*.{html,js}"
   ],
   theme: {
     extend: {
@@ -16,7 +16,8 @@ module.exports = {
         'purplier': '#483EFF',
         'red': '#EE374A',
         'sky-blue': '#BEE2FD',
-        'verylight-grey': '#F8F9FF'
+        'verylight-grey': '#F8F9FF',
+        'bg': '#EFF5FF'
       },
       fontFamily: {
         'ubuntu': ['Ubuntu'],
@@ -26,6 +27,9 @@ module.exports = {
       },
       fontSize: {
         '2': '2rem'
+      },
+      gap: {
+        '4.5': "1.125rem"
       }
     },
   },
